@@ -1,0 +1,15 @@
+import EventItem from "./EventItem";
+
+function EventList({ events }) {
+    //events=props tas emot från Events-komponent
+  return (
+    <div className="eventlist">
+      {events.slice(0, 500).map((event) => (
+        <EventItem key={event.id} event={event} />
+        //prop=event skickas vidare till EventItem-komponent
+      ))}
+    </div>
+  );
+}
+
+export default EventList;
