@@ -1,3 +1,5 @@
+
+          //Props=event från comp-EventList
 function EventItem({ event }) {
   return (
     <article className="event-card">

@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div>
+    <section>
       <h2>Om appen</h2>
       <p>
         Denna app är byggd i React och har tre stycken sidor (About , Events ,
@@ -10,7 +10,7 @@ function About() {
         kortfattad<br></br>
         information om ett urval av de utryckningar som polisen gjort.
       </p>
-    </div>
+    </section>
   );
 }
 
