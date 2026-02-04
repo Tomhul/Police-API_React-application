@@ -1,17 +1,39 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 # Police-API_React-application
+
+Det här är en Single Page Application (SPA) byggd i React/vite-js som visar de senaste händelsenotiserna från Svenska Polisen.  
+Applikationen hämtar data från Polisens öppna API och erbjuder användaren att fritt söka och läsa om dom senaste aktuella publicerade nationella polishändelserna.
+
+
+## Starta projektet
+
+Klona projekt:
+Git clone https://github.com/Tomhul/Police-API_React-application.git
+
+Eller:
+Download ZIP
+
+Installera beroenden:
+npm install
+
+Starta utvecklingsservern:
+npm run dev
+
+Starta webbläsaren (Ctrl+klick)
+http://localhost:5173
+
+
+## Uppfyllda krav examination
+
+* React SPA.
+* React Router.
+* Tre routes/views (About, Home, Events.
+* Navigation med React Router, NavLink.
+* Components sex st Navbar, Layout, Header, Footer, EventList, EventItem.
+* Props till komponenter från Events -> EventList -> EventItem.
+* useState används för API-data, söktext, laddningsstatus och felmeddelanden.
+* Data hämtas med fetch i useEffect.
+* Loading state och felhantering
+* Hämtad data används och visas i användargränssnittet.
+* En Readme
+*
+*
