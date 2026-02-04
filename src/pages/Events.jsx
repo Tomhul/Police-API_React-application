@@ -18,11 +18,13 @@ function Events() {
       })
       //Sparar data i state setEvents
       .then((data) => {
+        console.log(data);
         setEvents(data);
         setLoading(false);
       })
       //Sparar data i state setError
       .catch((err) => {
+        console.log(err);
         setError(err.message);
         setLoading(false);
       });
